@@ -2,7 +2,7 @@
 title: 'Operacijski sistemi'
 description: 'Osnovna razlaga operacijskih sistemov, ter uporaba terminala'
 pubDate: 'nov 10 2023'
-heroImage: '/blog-placeholder-1.jpg'
+heroImage: '/blog-1.png'
 ---
 
 ## Windows

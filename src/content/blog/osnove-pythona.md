@@ -2,7 +2,7 @@
 title: 'Osnove pythona'
 description: 'Osnovni koncepti programeskega jezika python3'
 pubDate: 'nov 11 2023'
-heroImage: '/blog-placeholder-1.jpg'
+heroImage: '/blog-2.png'
 ---
 
 Python je `interpretirani` programski jezik, kar pomeni da moramo za zagon programa imeti nameščen Pythonov `interpreter`. Interpreter nato bere našo kodo in jo izvaja vrstico za vrstico. Najbolje, da kar začnemo z najenostavnejšim programom v Pythonu, ki izpiše besedilo `Hello World!`.
@@ -146,12 +146,14 @@ Jutri bo lepši dan!
 ### Tipi spremenljivk
 
 Python ima več različnih privzetih tipou spremenljivk:
+
 - celo število (ang. `integer`) `x = 5`
 - decimalno število (ang. `float`) `x = 4.2`
 - niz (ang. `string`) `x = "Pozdravljen svet"` 
 - logična vrednost (ang. `boolean`) `x = True` ali `x = False`
 
-Kasneje bomo spoznali še nekatere druge tipe:
+Kasneje bomo spoznali še druge tipe:
+
 - seznam (ang. `list`)
 - slovar (ang. `dictionary`)
 - množica (ang. `set`)
@@ -298,3 +300,62 @@ print(x >= y) # True
 print(x <= y) # False
 ```
 
+## Vaje
+
+Za reševanje vaj si pomagjate z **GOOGLOM!!**  
+Koda ne bo delovla takoj... to je pričakovano. Kodo poskusite zagnati in spreminjati dokler ne začne delovati.  
+Srečno.
+
+### Pretvorba enot
+
+Napištie program, ki spremenljivko `vhod` v katero zapišemo kot v stopinjah, pretvori v radijane in rezultat _lepo_ izpiše.  
+
+Dopolnite spodnji program do delujočega.
+
+```py
+vhod = 90 # stopinj
+#-------------------
+
+# vaša koda tukaj
+
+print("rezultat") # popravite, da bo izpis v formatu "Rezultat: {X} rad", kjer je {X} pretvorjena cifra.
+
+```
+
+### Linearna funkcija
+
+Napištie program, ki za vhono spremenljivko X izračuna in izpiše vrednost Y.  
+Program naj ima spremenljivki za faktor `k` ter prosti člen `n`  
+
+```py
+x = 2.5 # vhod v funkcijo
+#-------------------
+
+# vaša koda tukaj
+
+print("rezultat") # popravite, da bo izpis v formatu "f(x)= {Y}", kjer je {Y} izračunana vrednost funkcije.
+```
+
+Če vam uspe, poskusite implementirati program, ki na podoben način računa poljuben polinom pete stopnje. `(a * x ** 5 + ... )`  
+Koeficienti naj bodo nastavljive spremenljivke.
+
+### Krog
+
+Napištie program, ki sprejme polmer kroga `r` izpiše pa osnovne podtke o tem krogu:  
+
+- premer
+- obseg
+- ploščina
+
+```py
+r = 2.5 # polmer
+#-------------------
+
+# vaša koda tukaj
+
+print("rezultat") # popravite, da bo izpis v formatu "premer = {X}", kjer je {X} premer krogra.
+print("rezultat") # popravite, ... obseg
+print("rezultat") # popravite, ... ploščina
+```
+
+Za konstanto `PI` uporabite **3.14** ali pa približek **22/7**. Poskusite izračunati oboje in primerjajte rezultate.  
