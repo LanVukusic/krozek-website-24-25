@@ -200,7 +200,6 @@ Za začetek predlagava, da se tega zapisa izogibate in pišete pogojne stavke v 
 
 > `Sintaksa` opisuje izgled / sestavo programskega jezika.
 
-
 ### Naloge
 
 Napišite program, ki v eni vrstici preveri ali je število negativno, pozitivno ali 0.
