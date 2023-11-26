@@ -134,15 +134,15 @@ Z stavkom `elif` lahko primejamo poljubno mnogo pogojev. Za daljši primer sem p
 month = int(input("enter month: "))
 
 if month == 12 or month == 1 or month == 2:
-        season = "Winter"
-    elif month >= 3 and month <= 5:
-        season = "Spring"
-    elif month >= 6 and month <= 8:
-        season = "Summer"
-    elif month >= 9 and month <= 11:
-        season = "Fall"
-    else:
-        season = "Invalid month"
+    season = "Winter"
+elif month >= 3 and month <= 5:
+    season = "Spring"
+elif month >= 6 and month <= 8:
+    season = "Summer"
+elif month >= 9 and month <= 11:
+    season = "Fall"
+else:
+    season = "Invalid month"
 
 print(season)
 ```
@@ -152,6 +152,11 @@ print(season)
 1. Napišite program ki sprejme tri števila, stranice trikotnika, ter izpiše kakšnega tipa je trikotnik. Če ima vse stranice enako dolge, izpišite `enakostratični`, če ima dve isti `enakokraki`, če pa so vse različne izpišite `navaden dolgočasen trikotnik`. Namig: uporabiti bo treba `and` in `or` za primerjavo večih pogojev.
 
 2. Napišite program, ki sprejme oceno od 1 do 5 ter izpiše opisno oceno (nezadostno, zadostno...). Najprej preverite če je vhod pravilen (je med 1 in 5). Če ni, izpišite napako, kregajte uporabnika in izklopite program. Za to lahko uporabite `exit(1)`.
+
+3. Napišite program, ki sprejme 3 števila in jih izpiše v urejenem vrstnem redu
+
+4. Program sprejme 3 kote v topinjah. Preverite če lahko trikotnik s temi koti obstaja.
+   1. Npišite možnost podajanja kotov kot "10r" ali "10d" - radiani ali kotne stopinje. (namig: kaj izpiše "hey"[-1])
 
 ## Gnezdeni (nested) pogoji
 
