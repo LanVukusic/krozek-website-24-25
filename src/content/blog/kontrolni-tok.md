@@ -16,7 +16,7 @@ print("tri")
 Programi, ki smo jih pisali so se vedno zvajali od vrha proti dnu, kjer so se vedno izvedle `vse` vrstice.  
 Ta program izpiše, po vrsti, `ena`,`dve`,`tri`. Tej vrsti izvajanja operacij pravimo `kontrolni tok`. Pove nam kakšen je vrstni red izvajanja operacij v programu.  
 
-![kontrolni tok](/public/content/kontrolni_tok_1.png "Kontrolni tok")
+![kontrolni tok](/kontrolni_tok_1.png)
 
 Poglejmo si kako uporavljati z zaporedjem ukazov s pomočjo pogojnih skokov.  
 
@@ -51,7 +51,7 @@ print("Ajdee!")
 
 Graf izvajanja programa bi izgledal tako:  
 
-![kontrolni tok](/public/content/kontrolni_tok_2.png "Kontrolni tok")
+![kontrolni tok](/kontrolni_tok_2.png)
 
 Pozravljanje in odzrdravljanje se bo zgodilo vedno oz `brezpogojno`, tako kot to poznamo od prej.  
 Stavek "Dobrodošli" se bo izpisal le, če je vrednost v stavku pravilna.  
@@ -89,7 +89,7 @@ print("Ajdee!")
 `Else` stavek vedno deluje v paru z stavkom `if`.  
 V primeru zgoraj lahko vidimo kako z if in else stavkoma implementiramo enostavvno prijavo.  
 
-![If else kontrolni tok](../../../public/content/kontrolni_tok_3.png)
+![If else kontrolni tok](/kontrolni_tok_3.png)
 
 `If` in `else` sta ena izmed najpomembnejših konceptov v programiranju. Skupaj z znjem o [spremenljivkah in računanju](/blog/osnove-pythona/) (iz prejšnjih poglavji) lahko rešimo veliko problemov.
 
