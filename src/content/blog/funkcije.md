@@ -2,8 +2,9 @@
 title: "Funkcije"
 description: "Funkcije"
 pubDate: "dec 9 2023"
-heroImage: "/blog-placeholder-2.jpg"
+heroImage: "/blog-4.jpg"
 ---
+`Avtor slike: Teja Rutar`
 
 Predstavljajte si, da na večih mestih v programu izvajate enako zaporedje ukazov, nato pa ugotovite, da ste se pri enem ukazu zmotili in ga morate popraviti. Popraviti pa ga morate na vseh mestih, kjer se je pojavil. To je lahko zelo zamudno in naporno. Prav tako je možnost napak velika. V takem primeru je smiselno to zaporedje ukazov `zapisati` le enkrat in ga nato `klicati` na vsakem mestu, kjer ga potrebujemo. To lahko naredimo z uporabo `funkcij`.
 
