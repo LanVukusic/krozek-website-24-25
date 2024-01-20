@@ -2,8 +2,9 @@
 title: "Zanke"
 description: "Zanke"
 pubDate: "dec 16 2023"
-heroImage: "/blog-placeholder-2.jpg"
+heroImage: "/zanke.jpg"
 ---
+`Avtor slike: Teja Rutar`
 
 Če bi želeli v terminal 5x izpisati določeno spremenljivko, bi to sedaj to naredili takole:
 

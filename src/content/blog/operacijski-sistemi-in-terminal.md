@@ -2,8 +2,9 @@
 title: 'Operacijski sistemi'
 description: 'Osnovna razlaga operacijskih sistemov, ter uporaba terminala'
 pubDate: 'nov 10 2023'
-heroImage: '/blog-1.png'
+heroImage: '/blog-1.jpg'
 ---
+`Avtor slike: Teja Rutar`
 
 ## Windows
 

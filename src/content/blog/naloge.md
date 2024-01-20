@@ -2,8 +2,9 @@
 title: "Naloge"
 description: "Naloge iz zank in seznamov"
 pubDate: "dec 23 2023"
-heroImage: "/blog-placeholder-2.jpg"
+heroImage: "/snezinke.jpg"
 ---
+`Avtor slike: Teja Rutar`
 
 ## Naloga 1
 

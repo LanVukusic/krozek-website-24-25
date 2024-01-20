@@ -2,8 +2,9 @@
 title: "Seznami"
 description: "Seznami"
 pubDate: "dec 16 2023"
-heroImage: "/blog-placeholder-2.jpg"
+heroImage: "/seznami.jpg"
 ---
+`Avtor slike: Teja Rutar`
 
 Seznam je vrsta spremenljivke (podatkovna struktura), ki vsebuje več podatkov. Seznam definiramo z uporabo oglatih oklepajev `[]`. Elemente seznama ločimo z vejico `,`. Seznam lahko vsebuje različne podatkovne tipe, vendar je to slaba praksa.
 
