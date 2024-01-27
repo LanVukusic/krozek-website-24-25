@@ -225,7 +225,7 @@ while True:
     time.sleep(0.5)
 ```
 
-S tem smo zaključili implementacijo Conway's Game of Life. Sedaj se lahko poigrate z začetnimi konstantami (velikost mreže, znak za živo in mrtvo celico, verjetnost, da je celica živa na začetku,...).
+S tem smo zaključili implementacijo Conway's Game of Life. Celotna koda je na voljo [tukaj](/game_of_life.py). Sedaj se lahko poigrate z začetnimi konstantami (velikost mreže, znak za živo in mrtvo celico, verjetnost, da je celica živa na začetku,...).
 Poskušajte še sami kako izboljšati/spremeniti program, dodajte še kakšno funkcionalnost, napišite kakšno funkcijo drugače, `Ctrl+A delete` in začnite znova in probajte sami napisati program od začetka.
 Mogoče si poglejte kakšno zunanjo knjižnico za risanje, da boste lahko igro prikazali na boljši način. Izberite si nov projekt in ga probajte implementirati. Ko se vam zatakne poglejte na Google, StackOverflow, Youtube, lahko pišete tudi nama.
 Možnosti je neskončno, odvisno je samo od vaše volje za učenje in raziskovanje. Programirat se boste naučili tako, da sami pišete kodo, ob tem naletite na probleme, ki jih s pomočjo interneta poskušate rešiti. Samo poslušanje najine razlage ne bo dovolj.
