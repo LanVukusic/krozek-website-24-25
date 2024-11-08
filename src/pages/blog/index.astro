@@ -90,9 +90,9 @@ const posts = (await getCollection("blog")).sort(
   </head>
   <body>
     <Header />
-    <main>
+    <main style="min-height: 80vh;">
       <section>
-        <ul>
+        <ul style="padding-top: 5rem;">
           {
             posts
               // .filter((a) => a.data.show != false)

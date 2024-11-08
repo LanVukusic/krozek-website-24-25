@@ -37,6 +37,18 @@
   border-radius: 5px;
 }
 
+.mobile-only {
+  @media screen and (min-width: 600px) {
+    display: none;
+  }
+}
+
+.wide-only {
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
+}
+
 body {
   font-family: "Geist", monospace;
   margin: 0;

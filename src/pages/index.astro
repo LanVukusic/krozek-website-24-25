@@ -12,6 +12,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
   </head>
   <body>
     <Header title={SITE_TITLE} />
+
     <div
       class=""
       style="background-image: url(https://godotengine.org/assets/showcase/blastronaut-1.webp);"
@@ -19,13 +20,29 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
       <div style="background-color: rgba(5, 27, 43, 0.5);  padding: 14rem 0;">
         <main style="">
           <h1
-            style="color: white; text-shadow: rgba(0, 0, 0, 0.541) 1px 0 30px;"
+            class="mobile-only"
+            style="color: white; text-shadow: rgba(0, 0, 0, 0.7) 1px 0 30px; max-width:400px; font-size: 2rem; text-align: center;"
+          >
+            Računalniški krožek
+            <p>2024 / 25</p>
+          </h1>
+          <h1
+            class="wide-only"
+            style="color: white; text-shadow: rgba(0, 0, 0, 0.7) 1px 0 30px;"
           >
             Računalniški krožek 2024 / 25
           </h1>
-          <div>
+
+          <h4
+            class="wide-only"
+            style="color: white; padding: 1rem 3rem; background-color: var(--secondary); width: min-content;"
+          >
+            Godot
+          </h4>
+          <div style="width: 100%; display:flex; justify-content: center;">
             <h4
-              style="color: white; padding: 1rem 3rem; background-color: var(--secondary); "
+              class="mobile-only"
+              style="color: white; padding: 0.5rem 2rem; background-color: var(--secondary); font-size: 1.2rem; width: min-content;"
             >
               Godot
             </h4>
