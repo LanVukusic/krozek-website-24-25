@@ -100,7 +100,7 @@ Vsi nodi imajo sledeče lastnosti:
 Zadnja alineja je zelo pomembna in je ključna za razumevanje Godota.
 S to lastnostjo lahko kombiniramo enostavne node v vedno bolj kompleksne strukture.
 
-![Node tree](/node_tree.png)
+![Node tree](./node_tree.png)
 
 Na sliki vidimo enostavno kombinacijo nodov, ki predstavlja igralca. Vedno imamo en `root` node.
 V tem primeru je to node z imenom `Player`.
