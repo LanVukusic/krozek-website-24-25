@@ -145,6 +145,8 @@ Te opracije sledijo sledečim praivilom:
 V programiranju je zelo pomembno, da lahko izvajamo določen del kode samo, če je določen pogoj izpolnjen.
 To naredimo s pomočjo `if` stavka.
 
+GDscript ima podobno sintakso kot Python, za to si lahko pomagamo z [gradivom za python](https://py.lanvukusic.com/blog/kontrolni-tok/)
+
 ```gdscript
 var a: int = 5
 
@@ -194,7 +196,7 @@ func pozdravi():
 pozdravi() # Hello, World!
 ```
 
-Funkcijam lahko podamo tudi argumente, ki jih uporabimo znotraj funkcije.
+Funkcijam lahko podamo tudi argumente, ki jih uporabimo znotraj funkcije. To so spremenljivke, ki jih lahko podamo, da so dostopne znotraj funkcije.  
 
 ```gdscript
 func pozdravi(ime: string):
@@ -203,7 +205,7 @@ func pozdravi(ime: string):
 pozdravi("matej") # Hello, matej!
 ```
 
-Funkcije lahko tudi `vračajo` vrednosti.
+Funkcije lahko tudi `vračajo` vrednosti.  
 
 ```gdscript
 func sestej(a: int, b: int) -> int:
@@ -211,6 +213,21 @@ func sestej(a: int, b: int) -> int:
 
 var rezultat = sestej(5, 3)
 print(rezultat) # 8
+```
+
+Vračanje (angl. `return`), prekine z izvajanjem funkcije.  
+
+```gdscript
+func sestej(a: int, b: int) -> int:
+    print("zacetek")
+    return a + b
+
+    print("konec")
+
+var rezultat = sestej(5, 3)
+
+# izpiše "zacetek"
+# "konec" pa se ne bo nikoli izpisal, ker return prekine izvajanje funkcije
 ```
 
 Vidimo, da lahko argumentom funkcije in njeni vrednosti določimo tip. To je zelo uporabno, saj se tako izognemo marsikateri napaki.
@@ -235,3 +252,76 @@ Cannot pass a value of type "String" as "int".
 Invalid argument for "sestej()" function: argument 1 should be "int" but is "String".
 ```
 
+## Zanke (loopi)  
+
+Zanke (angl. `loopi`) so en ključnih konceptov programiranja. Uporabljamo jih, kadar si želimo opisati ponavljanje, isaknje čez nek nabor, programirati z zbirkami...  
+Poznamo več vrst zank, med najbolj znane pa spadajo:
+
+- for
+  - `for i in range(10):`
+  - `for block in blocks_arr:`
+- While
+  - `while a < 100 :`
+
+>Pri GDscriptu se opazi očitna podobnost s jezikom Python, za to so gradiva za python pri učenju programiranja v GDscriptu pogosto zelo uporabna.  
+>Zanke smo si lansko leto v Pythonu zelo podrobno pogledali, gradivo pa lahko pogledate na  [Lanski spletni strani](https://py.lanvukusic.com/blog/zanke/).  
+
+## while loop  
+
+Je zanka, ki nam omogoča izvajati kodo, `DOKLER` (angl. while) neka trditev drži.  
+
+```gdscript
+i:int = 0
+
+while i < 5:
+    print(i)
+    i += 1
+
+#0
+#1
+#2
+#3
+#4
+```  
+
+Na začetku nastavimo spremenljivko `i` na `0`  
+V vsaki `iteraciji` najprej `i` izpišemo, potem pa jo povečamo za 1.  
+To ponavljamo toliko časa, dokler `i` ne nastavimo na 5. Takrat `i < 5` ne drži več, in zanka se zaključi  
+
+## for loop
+
+Zanka `for` je rahlo bolj kompleksna kot while, je pa tudi veliko pogosteje rabljena.  
+Predstavljamo si jo lahko na primeru,
+
+```gdscript
+    for n in numbers:
+        ...
+```
+
+ki si ga lahko preberemo kot **Za vsako številko n iz nabora numbers...**.  
+V angleščini bi bilo to **For every number n...**, od koder tudi izvira ključna beseda `for`.  
+
+Isti program kot zgoraj lahko z zanko `for` napišemo tako:  
+
+```gdscript
+for i in range(5):
+    print(i)
+#0
+#1
+#2
+#3
+#4
+```  
+
+Za isto funkcionalnost smo uporabili le 2 vrstici kode, ta pa je tudi bolj **berljiva**.  
+
+> Funckija `range(n)` nam pomaga, ko želimo izvesti točno `n` iteracij. Za nas v ozadju zgradi vrsto (angl. range) po kateri iteriramo.
+> `0, 1, 2, 3, 4`  
+> Vrsta se začne z n, ter gre do `n`, **in n-ja ne vključuje**.  
+
+Zanko for, pogosto uporabljamo tudi, ko iteriramo po nekem naboru objektov, ki smo ga prej shranili. Poglejmo si primer, ki izpiše imena vseh Nodov ki so pripeti (children) na naš node.  
+
+```gdscript
+for n in self.get_children(): # za vsak node n, v naboru otrok get_children()
+    print(n.name) # poglej node n, izberi njegovo ime `name` in ga izpiši
+```  
