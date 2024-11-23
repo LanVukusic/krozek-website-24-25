@@ -10,7 +10,7 @@ V tem poglavju bomo spoznali osnove programskega jezika GDScript.
 Če pa še nisi programiral, pa ne skrbi, saj bomo začeli z osnovami.
 To poglavje je prirejeno po [https://gdscript.com/](https://gdscript.com/) ter uradni dokumentaciji jezika [GDScript](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html).
 
-## Sprermenljivke
+## Spremenljivke
 
 Vsak programski jezik ima spremenljivke. Spremenljivke so kot škatle, v katere lahko shranimo podatke in do njih dostopamo kasneje.
 V GDScriptu spremenljivke definiramo z ključno besedo `var`, kateri sledi ime spremenljivke in nato enačaj `=` ter vrednost, ki jo želimo shraniti v spremenljivko.
@@ -29,6 +29,7 @@ Tukaj lahko vidimo 6 spremenljivk. Prve 4 so že `initializirane`, kar pomeni, d
 ## Tipi spremenljivk
 
 Spremenljivke so lahko različnih `tipov`. V zgornjem primeru smo uporabili 4 različne tipe spremenljivk:
+
 - `int` (celo število, 64bit)
 - `float` (decimalno število)
 - `bool` (logična vrednost, samo `true` ali `false`)
